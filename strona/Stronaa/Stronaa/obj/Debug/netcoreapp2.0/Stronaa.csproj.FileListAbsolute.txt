@@ -8,3 +8,4 @@ D:\Repo\strona\Stronaa\Stronaa\obj\Debug\netcoreapp2.0\Stronaa.AssemblyInfoInput
 D:\Repo\strona\Stronaa\Stronaa\obj\Debug\netcoreapp2.0\Stronaa.AssemblyInfo.cs
 D:\Repo\strona\Stronaa\Stronaa\obj\Debug\netcoreapp2.0\Stronaa.dll
 D:\Repo\strona\Stronaa\Stronaa\obj\Debug\netcoreapp2.0\Stronaa.pdb
+D:\Repo\strona\Stronaa\Stronaa\obj\Debug\netcoreapp2.0\Stronaa.csprojAssemblyReference.cache
