@@ -1,0 +1,55 @@
+﻿@page
+@model Stronaa.Pages.Alkoholee.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br />
+<div class="container row ">
+    <div class="col-md-9">
+        <h2 class="text-info">Lista Alokoholi Skurwysyny</h2>
+    </div>
+    <div class="col-md-3">
+        <a class="btn btn-info form-control">Dodaj nowego alkohola ścieku</a>
+    </div>
+
+    <div class="col-md-12">
+        <form method="post">
+            @if(Model.Alko.Count() > 0)
+            {
+                <table class="table table-striped">
+                    <tr>
+                        <th>
+                            <label asp-for="Alko.FirstOrDefault().Nazwa"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Alko.FirstOrDefault().KrajPochodzenia"></label>
+                        </th>
+                    </tr>
+                    @foreach (var item in Model.Alko)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(m => item.Nazwa)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m => item.KrajPochodzenia)
+                            </td>
+                        </tr>
+                    }
+
+
+                </table>
+            }
+            else
+            {
+                <p>Nie ma scieka</p>
+            }
+        </form>
+
+
+
+    </div>
+
+</div>
+

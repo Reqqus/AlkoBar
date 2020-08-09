@@ -13,7 +13,7 @@ namespace Stronaa.Model
 
         }
 
-        public DbSet<Alkohole> Alkohole { get; set; }
+        public DbSet<Alkohole> Alkoholev2 { get; set; }
        
     }
 }
