@@ -1,0 +1,10 @@
+D:\Repo\strona\Stronaa\Stronaa\bin\Debug\netcoreapp2.0\Stronaa.deps.json
+D:\Repo\strona\Stronaa\Stronaa\bin\Debug\netcoreapp2.0\Stronaa.runtimeconfig.json
+D:\Repo\strona\Stronaa\Stronaa\bin\Debug\netcoreapp2.0\Stronaa.runtimeconfig.dev.json
+D:\Repo\strona\Stronaa\Stronaa\bin\Debug\netcoreapp2.0\Stronaa.dll
+D:\Repo\strona\Stronaa\Stronaa\bin\Debug\netcoreapp2.0\Stronaa.pdb
+D:\Repo\strona\Stronaa\Stronaa\obj\Debug\netcoreapp2.0\Stronaa.csproj.CoreCompileInputs.cache
+D:\Repo\strona\Stronaa\Stronaa\obj\Debug\netcoreapp2.0\Stronaa.AssemblyInfoInputs.cache
+D:\Repo\strona\Stronaa\Stronaa\obj\Debug\netcoreapp2.0\Stronaa.AssemblyInfo.cs
+D:\Repo\strona\Stronaa\Stronaa\obj\Debug\netcoreapp2.0\Stronaa.dll
+D:\Repo\strona\Stronaa\Stronaa\obj\Debug\netcoreapp2.0\Stronaa.pdb
