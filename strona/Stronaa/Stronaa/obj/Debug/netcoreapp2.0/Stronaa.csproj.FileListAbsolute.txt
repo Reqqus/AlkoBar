@@ -9,3 +9,8 @@ D:\Repo\strona\Stronaa\Stronaa\obj\Debug\netcoreapp2.0\Stronaa.AssemblyInfo.cs
 D:\Repo\strona\Stronaa\Stronaa\obj\Debug\netcoreapp2.0\Stronaa.dll
 D:\Repo\strona\Stronaa\Stronaa\obj\Debug\netcoreapp2.0\Stronaa.pdb
 D:\Repo\strona\Stronaa\Stronaa\obj\Debug\netcoreapp2.0\Stronaa.csprojAssemblyReference.cache
+D:\Repo\strona\Stronaa\Stronaa\bin\Debug\netcoreapp2.0\appsettings.Development.json
+D:\Repo\strona\Stronaa\Stronaa\bin\Debug\netcoreapp2.0\appsettings.json
+D:\Repo\strona\Stronaa\Stronaa\bin\Debug\netcoreapp2.0\bundleconfig.json
+D:\Repo\strona\Stronaa\Stronaa\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+D:\Repo\strona\Stronaa\Stronaa\obj\Debug\netcoreapp2.0\Stronaa.genruntimeconfig.cache

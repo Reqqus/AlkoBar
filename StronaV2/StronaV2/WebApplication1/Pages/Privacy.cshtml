@@ -1,0 +1,29 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Jeżeli coś chcesz to pisz kurwo";
+}
+
+<div class="row">
+
+
+    <div class="col-md-6">
+        <h2>@Model.Message</h2>
+        <h3>@ViewData["Title"]</h3>
+        <address>
+            Warszafka<br />
+            Sciekowa 13<br />
+            <abbr title="Telefon"></abbr>
+            123456789
+        </address>
+
+        <address>
+            <strong>Ściekus masterus</strong> <a href="mailto:t_losek@poczta.wwsi.edu.pl">t_losek@poczta.wwsi.edu.pl</a><br />
+            <strong>The king of ściek</strong> <a href="mailto:r_malinowski@poczta.wwsi.edu.pl">r_malinowski@poczta.wwsi.edu.pl</a>
+        </address>
+    </div>
+    <div class="col-md-6 item">
+        <img src="~/images/team sciek.jpg" alt="Visual Studio" class="img-responsive" />
+    </div>
+</div>
+

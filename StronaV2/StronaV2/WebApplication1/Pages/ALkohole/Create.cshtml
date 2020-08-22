@@ -1,0 +1,38 @@
+﻿@page
+@model WebApplication1.Pages.ALkohole.CreateModel
+
+
+<br />
+<h2 class="text-info">Dodaj Nowy Alkohol</h2>
+
+<div class="border container" style="padding:30px;">
+    <form method="post">
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Alkohol.Nazwa"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Alkohol.Nazwa" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Alkohol.KrajPochodzenia"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Alkohol.KrajPochodzenia" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group row ">
+            <div class="col-3 offset-3">
+                <input type="submit" value="Dodaj" class="btn btn-primary form-control" />
+
+            </div>
+            <div class="col-3">
+                <a asp-page="Index" class="btn btn-success form-control">Powrót do listy Alkoholi</a>
+            </div>
+        </div>
+    </form>
+
+
+</div>

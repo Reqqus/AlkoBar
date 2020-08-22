@@ -1,0 +1,62 @@
+﻿@page
+@model WebApplication1.Pages.ALkohole.IndexModel
+@{
+}
+
+<br />
+
+<div class="container row p-0 m-0" >
+    <div class="col-9">
+        <h2 class="text-info"> Lista Alkoholi</h2>
+    </div>
+    <div class="col-3">
+        <a asp-page="Create" class="btn btn-info form-control text-white">Dodaj nowy alkohol</a>
+    </div>
+
+    <div class="col-12 border p-3 m-3">
+        <form method="post">
+            @if(Model.Alkohole.Count()>0)
+            {
+                <table class="table table-striped border ">
+                    <tr class="table-success">
+                        <th>
+                            <label asp-for="Alkohole.FirstOrDefault().ID"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Alkohole.FirstOrDefault().Nazwa"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Alkohole.FirstOrDefault().KrajPochodzenia"></label>
+                        </th>
+                    </tr>
+                    @foreach (var item in Model.Alkohole)
+                    {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(m => item.ID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => item.Nazwa)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => item.KrajPochodzenia)
+                    </td>
+                    <td>
+                        <button class=" btn btn-danger btn-sm ">Usuń</button>
+                        <a class="btn btn-success btn-sm text-white ">Edytuj</a>
+                    </td>
+                </tr>
+                    }
+                </table>
+            }
+            else
+            {
+                <p>Nie ma zadnych alkoholi</p>
+            }
+        </form>
+    </div>
+
+</div>
+
+
+
