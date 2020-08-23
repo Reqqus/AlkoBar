@@ -14,5 +14,6 @@ namespace WebApplication1.Model
         }
 
         public DbSet<Alkohol> Alkoholev2 { get; set; }
+        public DbSet<Drink> Drinki { get; set; }
     }
 }

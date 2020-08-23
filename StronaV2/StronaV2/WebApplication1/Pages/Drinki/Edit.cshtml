@@ -1,11 +1,14 @@
 ﻿@page
-@model WebApplication1.Pages.Drinki.CreateModel
+@model WebApplication1.Pages.Drinki.EditModel
+@{
+}
 
 <br />
-<h2 class="text-info">Dodaj Nowego Drinka</h2>
+<h2 class="text-info">Edycja Drinka</h2>
 
 <div class="border container" style="padding:30px;">
     <form method="post">
+        <input type="hidden" asp-for="Drink.id_drinka" />
         <div class="text-danger" asp-validation-summary="ModelOnly"></div>
         <div class="form-group row">
             <div class="col-3">
@@ -54,7 +57,7 @@
         </div>
         <div class="form-group row ">
             <div class="col-3 offset-3">
-                <input type="submit" value="Dodaj" class="btn btn-primary form-control" />
+                <input type="submit" value="Aktualizuj" class="btn btn-primary form-control" />
 
             </div>
             <div class="col-3">

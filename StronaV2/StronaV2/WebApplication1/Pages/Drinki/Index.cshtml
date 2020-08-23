@@ -1,0 +1,77 @@
+﻿@page
+@model WebApplication1.Pages.Drinki.IndexModel
+@{
+}
+
+<br />
+
+<div class="container row p-0 m-0">
+    <div class="col-9">
+        <h2 class="text-info"> Lista Drinków</h2>
+    </div>
+    <div class="col-3">
+        <a asp-page="Create" class="btn btn-info form-control text-white">Dodaj nowego drinka</a>
+    </div>
+
+    <div class="col-12 border p-3 m-3">
+        <form method="post">
+            @if (Model.Drinki.Count() > 0)
+            {
+                <table class="table table-striped border ">
+                    <tr class="table-success">
+                        <th>
+                            <label asp-for="Drinki.FirstOrDefault().id_drinka"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Drinki.FirstOrDefault().Nazwa"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Drinki.FirstOrDefault().Objetosc"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Drinki.FirstOrDefault().Kolor"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Drinki.FirstOrDefault().Rodzaj_drinka"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Drinki.FirstOrDefault().Cena"></label>
+                        </th>
+                    </tr>
+                    @foreach (var item in Model.Drinki)
+                    {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(m => item.id_drinka)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => item.Nazwa)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => item.Objetosc)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => item.Kolor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => item.Rodzaj_drinka)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => item.Cena)
+                    </td>
+                    <td>
+                        <button asp-page-handler="Usun" asp-route-id="@item.id_drinka" onclick="return confirm('Na pewno chcesz to wypierdolić ścieku ? ')" class=" btn btn-danger btn-sm ">Usuń</button>
+                        <a asp-page="Edit" asp-route-id="@item.id_drinka" class="btn btn-success btn-sm text-white ">Edytuj</a>
+                    </td>
+                </tr>
+                    }
+                </table>
+            }
+            else
+            {
+                <p>Nie ma zadnych drinków</p>
+            }
+        </form>
+    </div>
+
+</div>

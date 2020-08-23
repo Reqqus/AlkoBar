@@ -765,3 +765,6 @@ C:\Users\Dell\Desktop\xxx\StronaV2\StronaV2\WebApplication1\bin\Debug\netcoreapp
 C:\Users\Dell\Desktop\xxx\StronaV2\StronaV2\WebApplication1\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
 C:\Users\Dell\Desktop\xxx\StronaV2\StronaV2\WebApplication1\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
 C:\Users\Dell\Desktop\xxx\StronaV2\StronaV2\WebApplication1\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+C:\Users\Dell\Desktop\xxx\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Pages\Drinki\Create.cshtml.g.cs
+C:\Users\Dell\Desktop\xxx\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Pages\Drinki\Edit.cshtml.g.cs
+C:\Users\Dell\Desktop\xxx\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Pages\Drinki\Index.cshtml.g.cs
