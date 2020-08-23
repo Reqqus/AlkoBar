@@ -1,0 +1,68 @@
+﻿@page
+@model WebApplication1.Pages.Klienci.IndexModel
+@{
+}
+
+<br />
+
+<div class="container row p-0 m-0">
+    <div class="col-9">
+        <h2 class="text-info"> Lista Klientow</h2>
+    </div>
+    <div class="col-3">
+        <a asp-page="Create" class="btn btn-info form-control text-white">Dodaj nowego Klienta</a>
+    </div>
+
+    <div class="col-12 border p-3 m-3">
+        <form method="post">
+            @if (Model.Klient.Count() > 0)
+            {
+                <table class="table table-striped border ">
+                    <tr class="table-success">
+                        <th>
+                            <label asp-for="Klient.FirstOrDefault().id_klienta"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Klient.FirstOrDefault().Imie"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Klient.FirstOrDefault().Nazwisko"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Klient.FirstOrDefault().CzyPelnoletni"></label>
+                        </th>
+                    </tr>
+                    @foreach (var item in Model.Klient)
+                    {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(m => item.id_klienta)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => item.Imie)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => item.Nazwisko)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => item.CzyPelnoletni)
+                    </td>
+                    <td>
+                        <button asp-page-handler="Usun" asp-route-id="@item.id_klienta" onclick="return confirm('Na pewno chcesz to wypierdolić tego ściekusa  ? ')" class=" btn btn-danger btn-sm ">Usuń</button>
+                        <a asp-page="Edit" asp-route-id="@item.id_klienta" class="btn btn-success btn-sm text-white ">Edytuj</a>
+                    </td>
+                </tr>
+                    }
+                </table>
+            }
+            else
+            {
+                <p>Nie ma zadnych Klientow</p>
+            }
+        </form>
+    </div>
+
+</div>
+
+
+
