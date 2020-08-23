@@ -6181,9 +6181,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repo\\StronaV2\\StronaV2\\WebApplication1\\Alko Apka.csproj",
-      "projectName": "Alko Apka",
-      "projectPath": "D:\\Repo\\StronaV2\\StronaV2\\WebApplication1\\Alko Apka.csproj",
+      "projectUniqueName": "D:\\Repo\\StronaV2\\StronaV2\\WebApplication1\\WebApplication1.csproj",
+      "projectName": "WebApplication1",
+      "projectPath": "D:\\Repo\\StronaV2\\StronaV2\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\Tomek\\.nuget\\packages\\",
       "outputPath": "D:\\Repo\\StronaV2\\StronaV2\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",

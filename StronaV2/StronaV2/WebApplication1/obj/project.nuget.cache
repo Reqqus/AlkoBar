@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1GJC+qiPesct8eU4oiwgF/9LgHaWRulW4nNtaZjH/cViRuwN929WUcyvZylwg1XOsF2nkpZIqORx23D4bESMNA==",
+  "dgSpecHash": "7rgTZAQqAcJW5Rrqx1tZRU/LpSeCFaVO+aiSREfBmJOB0ejAhm44lfxaNshwzQFzzuMGHYQyBqnDXXjDiz6Qjw==",
   "success": true,
-  "projectFilePath": "D:\\Repo\\StronaV2\\StronaV2\\WebApplication1\\Alko Apka.csproj",
+  "projectFilePath": "D:\\Repo\\StronaV2\\StronaV2\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tomek\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.7\\microsoft.aspnetcore.mvc.razor.extensions.3.1.7.nupkg.sha512",
     "C:\\Users\\Tomek\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.1.7\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.7.nupkg.sha512",
