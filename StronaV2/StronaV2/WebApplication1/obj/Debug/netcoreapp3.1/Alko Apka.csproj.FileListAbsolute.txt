@@ -351,6 +351,7 @@ D:\Repo\StronaV2\StronaV2\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x
 D:\Repo\StronaV2\StronaV2\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Repo\StronaV2\StronaV2\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Repo\StronaV2\StronaV2\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Alko Apka.csprojAssemblyReference.cache
 D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Alko Apka.AssemblyInfoInputs.cache
 D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Alko Apka.AssemblyInfo.cs
 D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Alko Apka.csproj.CoreCompileInputs.cache
@@ -363,6 +364,7 @@ D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Alko Apka.TagH
 D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Alko Apka.RazorCoreGenerate.cache
 D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Pages\About.cshtml.g.cs
 D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Pages\ALkohole\Create.cshtml.g.cs
+D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Pages\ALkohole\Edit.cshtml.g.cs
 D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Pages\ALkohole\Index.cshtml.g.cs
 D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
 D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs

@@ -13,16 +13,29 @@ namespace WebApplication1.Pages.ALkohole
     {
         private readonly ApplicationDbContext _db;
 
-        public IndexModel( ApplicationDbContext db)
+        public IndexModel(ApplicationDbContext db)
         {
             _db = db;
         }
 
 
-        public IEnumerable<Alkohol> Alkohole { get; set; } 
+        public IEnumerable<Alkohol> Alkohole { get; set; }
         public async Task OnGetAsync()
         {
             Alkohole = await _db.Alkoholev2.ToListAsync();
+        }
+
+        public async Task<IActionResult> OnPostUsun(int id)
+        {
+            var Alkohol = await _db.Alkoholev2.FindAsync(id);
+            if(Alkohol == null)
+            {
+                return NotFound();
+            }
+            _db.Alkoholev2.Remove(Alkohol);
+            await _db.SaveChangesAsync();
+
+            return RedirectToPage("Index");
         }
     }
 }

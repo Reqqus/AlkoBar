@@ -42,8 +42,8 @@
                         @Html.DisplayFor(m => item.KrajPochodzenia)
                     </td>
                     <td>
-                        <button class=" btn btn-danger btn-sm ">Usuń</button>
-                        <a class="btn btn-success btn-sm text-white ">Edytuj</a>
+                        <button asp-page-handler="Usun" asp-route-id ="@item.ID" onclick ="return confirm('Na pewno chcesz to wypierdolić ścieku ? ')" class=" btn btn-danger btn-sm ">Usuń</button>
+                        <a  asp-page="Edit" asp-route-id="@item.ID" class="btn btn-success btn-sm text-white ">Edytuj</a>
                     </td>
                 </tr>
                     }
