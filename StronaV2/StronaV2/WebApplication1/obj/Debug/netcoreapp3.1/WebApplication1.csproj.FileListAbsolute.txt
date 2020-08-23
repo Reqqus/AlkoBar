@@ -381,3 +381,4 @@ D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication
 D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
 D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Pages\ALkohole\Index.cshtml.g.cs
 D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Pages\ALkohole\Create.cshtml.g.cs
+D:\Repo\StronaV2\StronaV2\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Pages\ALkohole\Edit.cshtml.g.cs
